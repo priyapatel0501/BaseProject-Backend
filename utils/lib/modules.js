@@ -1,0 +1,17 @@
+module.exports = {
+    setup: '5e1d0285-79b6-4d99-ade6-84cc9fbf32fb',
+    setup_user: '41a48d08-4d13-4cd8-bb74-3e383a2fbaf8',
+    setup_user_add: '03c3c561-a254-4d8b-a3d3-6fba76c3e36e',
+    setup_user_mock_login: 'c519611d-0e8a-4321-a9c9-57c4a0bc0c40',
+    setup_user_edit: 'bc9c4a48-72bb-4ea5-bae2-c8af7c367e85',
+    setup_user_delete: '81c28771-7efc-4691-b10b-36d2b35eaf29',
+    setup_user_reset_password: '3566c134-44ce-4f5f-8ae5-df17b99a9be0',
+    setup_user_view: '0a3773d3-5450-4f00-a7d0-adb3c1f51309',
+    setup_role: '9d254493-df8f-4f4d-be22-8401433dfd25',
+    setup_role_delete: 'e05c3fa9-44c6-4144-866d-8850c663615b',
+    setup_role_edit: 'd96fa055-1261-46c9-b58c-e35adcf4da1a',
+    setup_role_add: 'a518315f-c4fb-480c-b710-d9a320378c6a',
+    setup_role_assign_permission: '7f9c9dbd-d520-4a19-a036-ae8b76bd7e6e',
+    setup_role_update_hierarchy: '75e632bb-43c1-49c2-977b-268e387eefbd',
+    setup_role_view: 'fcd957f0-2f3c-43d9-8bfa-fe9d602703a4',
+};

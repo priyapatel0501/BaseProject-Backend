@@ -1,0 +1,24 @@
+{
+    "development": {
+        "username": "root",
+        "password": null,
+        "database": "newDB",
+        "host": "127.0.0.1",
+        "dialect": "mysql",
+        "pool": { "max": 5, "min": 0, "acquire": 30000, "idle": 10000 },
+        "seederStorage": "sequelize",
+        "seederStorageTableName": "sequelizeData",
+        "logging": false
+    },
+    "production": {
+        "username": "baseapicp_basecp",
+        "password": "mnBGKVFu?mI8",
+        "database": "baseapicp_base",
+        "host": "127.0.0.1",
+        "dialect": "mssql",
+        "pool": { "max": 5, "min": 0, "acquire": 30000, "idle": 10000 },
+        "seederStorage": "sequelize",
+        "seederStorageTableName": "sequelizeData",
+        "logging": false
+    }
+}

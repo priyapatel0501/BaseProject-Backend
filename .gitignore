@@ -1,0 +1,11 @@
+/node_modules
+.eslintcache
+package-lock.json
+.DS_Store
+/uploads
+.env
+*.log
+/access-logs
+./dist
+# Sentry Config File
+.env.sentry-build-plugin

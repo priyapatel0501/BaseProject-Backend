@@ -1,0 +1,34 @@
+{
+    "development": {
+        "enable": true,
+        "enableAuditDetailModel": true,
+        "debug": true,
+        "clsNamespace": "session",
+        "clsUser": "user",
+        "clsUserId": "userId",
+        "clsModuleId": "moduleId",
+        "clsAuditLogId": "auditLogId",
+        "clsStartTime": "startTime",
+        "requestPath": "requestPath",
+        "requestMethod": "requestMethod",
+        "clientIP": "clientIP",
+        "userAgent": "userAgent",
+        "exclude": ["createdAt", "updatedAt", "createdBy", "updatedBy"]
+    },
+    "production": {
+        "enable": true,
+        "enableAuditDetailModel": true,
+        "debug": true,
+        "clsNamespace": "session",
+        "clsUser": "user",
+        "clsUserId": "userId",
+        "clsModuleId": "moduleId",
+        "clsAuditLogId": "auditLogId",
+        "clsStartTime": "startTime",
+        "requestPath": "requestPath",
+        "requestMethod": "requestMethod",
+        "clientIP": "clientIP",
+        "userAgent": "userAgent",
+        "exclude": ["createdAt", "updatedAt", "createdBy", "updatedBy"]
+    }
+}
