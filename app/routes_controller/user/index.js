@@ -64,7 +64,6 @@ router.get('/user', auth, authPermission([modules.setup_user_view, modules.setup
 // get User by Id
 router.get('/user/:id', auth, authPermission([modules.setup_user_view, modules.setup_user, modules.setup_user_edit]), controller.findById);
 
-// create User
 router.post(
     '/user',
     auth,
